@@ -67,8 +67,8 @@ def main(config):
     if args.algo == 'sac':
         model.save('weights/'+'sacfinalpolicy')
     else:
-        model.deepRLCD.save_current()
-        model.deepRLCD.save_models()
+        model.deepMBCD.save_current()
+        model.deepMBCD.save_models()
 
 if __name__ == '__main__':
 

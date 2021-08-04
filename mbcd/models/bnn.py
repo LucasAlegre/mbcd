@@ -13,10 +13,9 @@ import numpy as np
 from tqdm import trange
 from scipy.io import savemat, loadmat
 
-from drl_cd.models.utils import get_required_argument, TensorStandardScaler
-from drl_cd.models.fc import FC
-
-from drl_cd.utils.logger import Progress, Silent
+from mbcd.models.utils import get_required_argument, TensorStandardScaler
+from mbcd.models.fc import FC
+from mbcd.utils.logger import Progress, Silent
 
 np.set_printoptions(precision=4)
 
