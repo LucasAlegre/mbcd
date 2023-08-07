@@ -2,7 +2,7 @@ import os
 import gym
 import numpy as np
 import pandas as pd
-import random 
+import random
 import argparse
 
 import tensorflow as tf
