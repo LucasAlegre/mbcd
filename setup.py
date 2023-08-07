@@ -1,6 +1,13 @@
 from setuptools import setup, find_packages
 
-REQUIRED = ['numpy', 'pandas', 'matplotlib', 'stable-baselines']
+REQUIRED = ['numpy',
+            'pandas',
+            'matplotlib',
+            'stable-baselines',
+            'gym<0.20',
+            'tensorflow<2.0',
+            'tqdm',
+            'cpython<3.0']
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
